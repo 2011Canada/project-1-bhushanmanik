@@ -16,10 +16,6 @@ public class ConnectionFactory {
 	public static ConnectionFactory getConnectionFactory() {
 		return cf;
 	}
-	//mydatabase.cnznsbc4mcvn.us-east-2.rds.amazonaws.com
-	
-//	jdbc:postgresql://mydatabase.cnznsbc4mcvn.us-east-2.rds.amazonaws.com:5432/postgres?currentSchema=ExpenseSystem
-	
 	//this holds all of our connections
 	//we could potential implement this as a connection pool
 	private Connection [] conn;
@@ -30,13 +26,7 @@ public class ConnectionFactory {
 	//all of our constructores must be private
 	//otherwise others could make new instances
 	private ConnectionFactory(int numberOfConnections) {
-		//Connection conn = DriverManager.getConnection("jdbc:postgresql://mydatabase.cnznsbc4mcvn.us-east-2.rds.amazonaws.com:5432/canadadatabase?currentSchema=ExpenseSystem", "postgres", "manikbhushan");
-		/*try {
-		Class.forName("org.postgresql.Driver");
-	} catch (ClassNotFoundException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}*/
+		
 		
 		try {
 			DriverManager.registerDriver(new org.postgresql.Driver());
