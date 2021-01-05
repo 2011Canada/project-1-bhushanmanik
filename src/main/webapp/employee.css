@@ -1,0 +1,178 @@
+body {
+    background: linear-gradient(132deg, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+body
+{
+margin: 0;
+}
+.btn-black{
+            color: #0b0d0e; /* Text color */
+            background-color: rgb(152, 252, 132); /* Remove background color */
+            border: 2px solid #14181a; /* Border thickness, line style, and color */
+            border-radius: 5px; /* Adds curve to border corners */
+            text-transform: uppercase; /* Make letters uppercase */
+        }
+        
+        .arkalogin
+{
+    border-radius: 25px;
+width: 600px;
+border: 1px solid black;
+text-align: center;
+background: #e4f8cb;
+height: 60px;
+padding: 10px;
+margin: 10px auto;
+}
+       
+ .btn-white{
+            color: #0c0e0f; /* Text color */     
+            background-color: rgb(152, 252, 132);/* Remove background color */
+            border: 2px solid #141616; /* Border thickness, line style, and color */
+            border-radius: 5px; /* Adds curve to border corners */
+            text-transform: uppercase; /* Make letters uppercase */
+            }
+
+.myDiv {
+            border: 5px outset red;
+            background-color: lightblue;
+            text-align: left;
+        }
+
+#b1{
+        background-color: #08db1a;
+        }
+
+        #b1{
+            background-color: #08db1a;
+            }
+
+            #desc{
+                width:400px;
+                 height:100px;
+            }
+.tab-status{
+            border: 1px solid black;
+            padding: 15px;
+            text-align: left;
+            background-color: #8fe929;
+            }                  
+
+.myDiv2 {
+            border: 5px outset red;
+            background-color: rgb(135, 187, 236);
+            text-align: left;
+        }   
+                          
+.ff{
+            width: 30%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+}
+
+#typeReimb *
+{
+            border-radius:15px;
+            background-color:red;
+}
+.sub{
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+}
+.btn-black:hover {
+            background-color:  #08db1a;
+            }
+.btn-white:hover {
+                background-color:    #08db1a;
+                }
+
+ .sub:hover
+                {
+                background: #08db1a;
+                }
+
+select {
+            width: 150px;
+            margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(236, 226, 226);
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #m2{
+    color: #E6E6E6;
+}
+  li a:hover:not(.active) {
+    background-color: rgb(16, 191, 245);
+  }
+  
+  .active {
+    background-color: #04bbf3;
+  }
+
+  
+  .dark-mode {
+    background: linear-gradient(132deg, #E5E5E5, #d6ccd0, #c68fcf, #c9bddf, #abb1d1, #a4c3dd,#6d8996, #92acaf, #96c2bd, #aed6af, #d6c695, #ceb99a, #cfa7a4, #cc8ea3, #ebb1f5, #cfbbf1, #9da6d8, #a1c8e7,#9cc4d6, #a4dfe7, #b4ddd9, #aff0b1, #ebddb3, #dabd92);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+body.dark-mode > center > h1 > span > p {
+    color: rgb(13, 15, 13);
+
+}
+
+body.dark-mode > center > div > table {
+    background-color: rgb(174, 245, 156);
+
+}
+
+body.dark-mode > center > span > p {
+    color: rgb(13, 15, 13);
+
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }

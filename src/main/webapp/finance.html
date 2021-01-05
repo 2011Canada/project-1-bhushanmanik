@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+     <link href="./finance.css" rel="stylesheet"/>
+    <title> Finance Manager!!!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="http://localhost:8080/projectservlet/login.html">Back</a></li>
+      <li><a class="active" href="http://localhost:8080/projectservlet/finance.html">Finance Manager</a></li>
+      <li style="float:right"><a href="http://localhost:8080/projectservlet/login.html">Logout</a></li>
+    </ul>
+    <center>
+        <span id="m2" style="font-size: 50px; text-align: center; display: block; "><p>Welcome Finance Manager</p></span>
+        <form>
+          
+            <label for="status"><span id="m2" style="font-size: 23px; text-align: center; display: block;
+              "><p>Choose the type of reimbursement status:</p></label></h3></span>
+            <select id="status" name="ReimbursementStatus" onchange="filterReimb()">
+              <option  value="0">All</option>
+              <option value="2">Pending</option>
+              <option value="1">Approved</option>
+              <option  value="3">Denied</option>
+            </select>
+            
+          </form>
+          <br><br>
+          <table id="reimbursement" class="tab-status" style="width:80%">
+            <tr>
+              <th>Id</th>
+              <th>First Name</th>
+              <th>Last name</th>
+              <th>Amount</th>
+              <th>Type</th>
+              <th>Submitted</th>
+              <th>Resolved</th>
+              <th>Description</th>
+              <th>Approve</th>
+              <th>Deny</th>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input type="submit" id="sub1" value="Approve"></td>
+              <td><input type="submit" id="sub2" value="Deny"></td>
+              
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              
+            </tr>
+          </table>
+
+          <br><br><br><br><br><br><br><br><br>
+          <button id="b1" onclick="myFunction()">Change to Light Theme</button>
+      <span id = "m2" style="font-size: 23px; text-align: center; display: block;"><p>&copy; COPYRIGHT 2021</p></span>
+</center>
+<script>
+  function myFunction() {
+     var element = document.body;
+     if(document.getElementById("b1").innerHTML == "Change to Light Theme"){
+            document.getElementById("b1").innerHTML = "Change to Dark Theme"
+           }else{
+            document.getElementById("b1").innerHTML = "Change to Light Theme"
+           }
+     element.classList.toggle("dark-mode");
+  }
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./finance.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="./login.css" rel="stylesheet"/>
+    <title>Logging in!!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="http://localhost:8080/projectservlet/login.html">Login</a></li>
+   </ul>
+    <section style="height: 100vh;">
+      
+      <div class="baslik">
+          <span id ="m2" style="font-size: 50px; text-align: center; display: block;">Reimbursement System</span>
+          <br><span style="font-size: 23px; text-align: center; display: block;"><p>Welcome To The Reimbursement System</p></span></div>
+      <section>
+      <form>
+          <div style=" background-color: rgb(204, 248, 201);" class="arkalogin">
+              <div class="loginbaslik" style="text-align: center;color: black; background-color: rgb(204, 248, 201);">Login</div>
+              <hr style="border: 1px solid #ccc;">
+              
+              <input id="username-input" class="giris" type="text" name="kadi" placeholder="Username">
+              <br>
+              <input id="password-input" class="giris" type="password" name="sifre" placeholder="Password"><br><br>
+              <span id="inv" style="font-size: 15px; text-align: center; display: block; color: #e00a0a;display: none;">
+                Invalid Username/Password</span>
+                <button class="butonlogin" type="submit" class="btn btn-black" value="Login">Login</button>
+                      
+          </div>
+      </form>
+      </section>
+      
+      <center>
+         <button id ="b1" onclick="myFunction()">Change to Light Theme</button></center>
+      <span id = "m2" style="font-size: 23px; text-align: center; display: block;"><p>&copy; COPYRIGHT 2021</p></span>
+</section>
+      <script>
+        function myFunction() {
+           
+           var element = document.body;
+           if(document.getElementById("b1").innerHTML == "Change to Light Theme"){
+            document.getElementById("b1").innerHTML = "Change to Dark Theme"
+           }else{
+            document.getElementById("b1").innerHTML = "Change to Light Theme"
+           }
+           element.classList.toggle("dark-mode");
+           
+        }
+        </script>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <script src="./login.js"></script>
+  </body>
+</html>

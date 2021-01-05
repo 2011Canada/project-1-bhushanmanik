@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(132deg, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+.baslik
+{
+color: #fff;
+text-align: center;
+font-family: 'Fira Sans';
+}
+.arkalogin
+{
+width: 300px;
+text-align: center;
+background: #fff;
+height: 325px;
+padding: 10px;
+margin: 50px auto;
+}
+.loginbaslik
+{
+color: #888888;
+text-align: left;
+font-size: 19px;
+margin-top: 15px;
+}
+.giris
+{
+width: 90%;
+height: 40px;
+margin-top: 10px;
+border: none;
+background: #E5E5E5;
+outline: none;
+padding: 0 10px;
+}
+.butonlogin
+{
+width: 100%;
+margin-top: 10px;
+height: 40px;
+font-weight: bold;
+background: #2196F3;
+border: none;
+color: #fff;
+transition: all 250ms;
+}
+.butonlogin:hover
+{
+background: #1E88E5;
+}
+body
+{
+margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(236, 226, 226);
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(16, 191, 245);
+  }
+  
+  .active {
+    background-color: #04bbf3;
+  }
+
+  .dark-mode {
+    background: linear-gradient(132deg, #E5E5E5, #d6ccd0, #c68fcf, #c9bddf, #abb1d1, #a4c3dd,#6d8996, #92acaf, #96c2bd, #aed6af, #d6c695, #ceb99a, #cfa7a4, #cc8ea3, #ebb1f5, #cfbbf1, #9da6d8, #a1c8e7,#9cc4d6, #a4dfe7, #b4ddd9, #aff0b1, #ebddb3, #dabd92);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
