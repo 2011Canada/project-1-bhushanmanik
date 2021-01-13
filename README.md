@@ -49,4 +49,7 @@ The back-end system shall use JDBC/Hibernate ( if adventurous) to connect to a P
      * Denied
 * A button which changes the theme of the application
 
+TO-DO List : 
+* User can upload a image of the receipt 
+* By file reading we get all the details of the receipt and add new reimbursement 
 
