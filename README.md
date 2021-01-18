@@ -42,6 +42,8 @@ To-Do List :
 ## Getting started 
 Open Git bash and enter the command :
 git clone https://github.com/2011Canada/project-1-bhushanmanik.git
+
+
 For SSH, enter :
 git@github.com:2011Canada/project-1-bhushanmanik.git
 
