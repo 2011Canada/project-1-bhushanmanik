@@ -5,7 +5,7 @@
 
 
 The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
-State-chart Diagram (Reimbursement Statuses)
+
      
 ## Technologies used
 * Servlets 
@@ -25,35 +25,35 @@ State-chart Diagram (Reimbursement Statuses)
 ## Features
 Features which are ready are : 
 * Login
-* Employee can see all its reimbursements
-* Employee can request for a new reimbursement
-* Finance Manager can approve/deny a reimbursement
-* Finance manager can filter between reimbursement by their status 
+* Employee can see all its reimbursements.
+* Employee can request for a new reimbursement.
+* Finance Manager can approve/deny a reimbursement.
+* Finance manager can filter between reimbursement by their status :
      * Approved
      * Pending
      * Denied
-* A button which changes the theme of the application
+* A button which changes the theme of the application.
 
 To-Do List :
-* User can add an image of the reimbursement receipt
-* The system reads everything in the ticket and adds a reimbursement ticket
-* UI more user interactive
+* User can add an image of the reimbursement receipt.
+* The system reads everything in the ticket and adds a reimbursement ticket.
+* UI more user interactive.
 
 ## Getting started 
-Open Git bash and enter the command 
+Open Git bash and enter the command :
 git clone https://github.com/2011Canada/project-1-bhushanmanik.git
-For SSH, enter
+For SSH, enter :
 git@github.com:2011Canada/project-1-bhushanmanik.git
 
 ## Usage
-* Clone the project and open it by importing in VS Code
-* Install and run the tomcat server 
-* Run the project and then login with the username & password
-* Enter as an employee and then add a reimbursement ticket and logout
+* Clone the project and open it by importing in VS Code.
+* Install and run the tomcat server. 
+* Run the project and then login with the username & password.
+* Enter as an employee and then add a reimbursement ticket and logout.
 * Now login as the finance manager and approve/reject the reimbursement tickets.
 
 ## Licenses
-The GNU Lesser General Public License
+The GNU Lesser General Public License.
 
 ## Reimbursement Types 
 
